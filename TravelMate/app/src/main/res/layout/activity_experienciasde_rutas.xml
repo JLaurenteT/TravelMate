@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExperienciasdeRutasActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            app:tint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Experiencia de rutas"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Buscar guías o destinos"
+        android:iconifiedByDefault="false"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Mariano Mejia @MarianoMejia - Guía Local"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Arequipa será mi próxima aventura. Desde el imponente volcán Misti hasta el majestuoso Cañón del Colca, cada rincón me llenará de historia y paisajes que quitan el aliento. No puedo esperar para explorar la Ciudad Blanca y probar su deliciosa gastronomía."/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/chat"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/heart"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:id="@+id/bookmark"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/bookmark"
+            app:tint="@color/black" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Lucia Rivera @LuciaRivera - Turista"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="El Cañón del Colca y los paisajes andinos de Arequipa están en mi lista. Ver al majestuoso cóndor sobrevolar las alturas será un sueño hecho realidad. ¡La naturaleza en su estado más puro me espera en la sierra peruana!"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/chat"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/heart"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/bookmark"
+            app:tint="@color/black" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Richar Samuel @RciharSamuel -Guía Loca"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Arequipa me espera con sus calles coloniales y su arquitectura blanca. Visitar el Monasterio de Santa Catalina y perderme en sus pasadizos será mi primera parada. ¡La cultura y tradición de la Ciudad Blanca me llaman!"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/chat"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/heart"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/bookmark"
+            app:tint="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/home"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/search"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/add"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/notification"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:src="@drawable/chat"
+            app:tint="@color/white" />
+    </LinearLayout>
+</LinearLayout>

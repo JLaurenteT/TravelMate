@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="roles_array">
+        <item>Turista</item>
+        <item>Guía</item>
+    </string-array>
+</resources>

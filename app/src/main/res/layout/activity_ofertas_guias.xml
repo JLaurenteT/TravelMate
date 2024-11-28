@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".OfertasGuiasActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Ofertas de Guías Locales"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"/>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Buscar guías o destinos"
+        android:iconifiedByDefault="false"
+        android:background="@color/white"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/man"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Guía José\nHola, estoy interesado en ser tu guía para tu viaje al Monasterio de Santa Catalina"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="18dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/orange">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="En ruta"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="280dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/woman"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Guía Luciana\nHola, Mi nombre es Luciana, puedo ser tu guía en tu próximo viaje."/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="18dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/green">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="Disponible"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:orientation="horizontal"
+
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/home"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/search"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/add"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:src="@drawable/notification"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:src="@drawable/chat"
+            app:tint="@color/white" />
+    </LinearLayout>
+</LinearLayout>
